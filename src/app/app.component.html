@@ -1,8 +1,9 @@
-<app-header></app-header>
+<app-header (flag)="getNavigate($event)"></app-header>
 <div class="container">
   <div class="row">
     <div class="coll-md-12">
-      I'm in
+      <app-recipes *ngIf="witchTab==='recipe'"></app-recipes>
+      <app-shopping-list *ngIf="witchTab==='shopping'"></app-shopping-list>
     </div>
   </div>
 </div>

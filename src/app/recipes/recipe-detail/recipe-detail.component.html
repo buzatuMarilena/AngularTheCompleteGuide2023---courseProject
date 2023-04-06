@@ -1,1 +1,38 @@
-<p>recipe-detail works!</p>
+RECIPE DETAIL COMP
+<div class="row">
+  <div class="col-xs-12">
+    <img
+      [src]="recipeToShow.imagePath"
+      alt="{{recipeToShow.name}}"
+      class="img-fluid" style="max-height: 50px;">
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-12">
+    <h1>{{recipeToShow.name}}</h1>
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-12">
+    <div class="btn-group">
+      <button type="button"
+              class="btn btn-primary dropdown-toggle">
+        Manage Recipe</button>
+      <ul class="dropdown-menu">
+        <li><a href="#">To shopping List</a> </li>
+        <li><a href="#">Edit Recipe</a> </li>
+        <li><a href="#">Delete Recipe</a> </li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-12">
+    <h1>{{recipeToShow.description}}</h1>
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-12">
+    <h1>Ingredients</h1>
+  </div>
+</div>
