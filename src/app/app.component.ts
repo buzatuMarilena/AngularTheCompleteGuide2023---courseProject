@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'course-project';
-  witchTab = 'recipe';
+  witchTab = 'shopping';
 
   getNavigate(text: string){
     this.witchTab = text;
