@@ -7,9 +7,9 @@ import {Component, EventEmitter, Output} from "@angular/core";
 })
 export class HeaderComponent {
 
-  @Output() flag = new EventEmitter<string>();
+  //@Output() flag = new EventEmitter<string>();
 
-  onSelect(text: string){
-    this.flag.emit(text);
-  }
+  // onSelect(text: string){
+  //   this.flag.emit(text);
+  // }
 }
